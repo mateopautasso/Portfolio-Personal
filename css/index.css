@@ -1,0 +1,82 @@
+:root {
+    /* colors */
+    --black: #000000;
+    --white: #ffffff;
+    --aqua-green: #48cfad;
+    --blue-grey-dark: #23282d;
+    --blue-grey: #434a54;
+    --blue-grey-soft: #656d78;
+    --grey: #ccd1d9;
+    --grey-soft: #e6e9ed;
+    --purple: #ac92ec;
+    --green: #a0d468;
+  
+    /* Tipografía */
+    /* --tipografia-principal: 'Roboto';
+    --tipografia-secundaria: 'Roboto Mono';
+    --tipografia-terciaria: 'Roboto Slab'; */
+    --size-h1: 5rem;
+    --size-h2: 3.5rem;
+    --size-h3: 2rem;
+    --p:
+    }
+body {
+    height: 100vh;
+    background-color: #111111;
+    background-image: url('/assets/images/cover-medium.png');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
+.main-index {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-index__h1 {
+    font-family: 'Roboto';
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 60px;
+    word-spacing: 10px;
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+}
+.main-index__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 65px;
+    margin-top: 20px;
+    background-color: var(--aqua-green);
+    cursor: pointer;
+    transition-property: border;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+.main-index__button a {
+    font-family: 'Roboto Mono';
+    font-size: 2rem;
+    font-weight: bold;
+}
+.main-index__button:hover {
+    border: 3px solid white;
+}
+.main-index__button:active {
+    background-color: #3e9780;
+}
+
+@media screen and (max-width: 768px) {
+    .main-index__h1{
+        font-size: 3.5rem;
+        line-height: 45px;
+    }
+    .main-index__button {
+        border-radius: 6px;
+    }
+}

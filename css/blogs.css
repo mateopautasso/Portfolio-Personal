@@ -1,0 +1,204 @@
+:root {
+    /* colors */
+    --black: #000000;
+    --white: #ffffff;
+    --aqua-green: #48cfad;
+    --blue-grey-dark: #23282d;
+    --blue-grey: #434a54;
+    --blue-grey-soft: #656d78;
+    --grey: #ccd1d9;
+    --grey-soft: #e6e9ed;
+    --purple: #ac92ec;
+    --green: #a0d468;
+  
+    /* Tipografía */
+    /* --tipografia-principal: 'Roboto';
+    --tipografia-secundaria: 'Roboto Mono';
+    --tipografia-terciaria: 'Roboto Slab'; */
+    --size-h1: 5rem;
+    --size-h2: 3.5rem;
+    --size-h3: 2rem;
+    --p:
+}
+
+
+/*Seccion de ultimo proyecto*/
+.last-project {
+    width: 100%;
+    height: 470px;
+    background-color: var(--grey-soft);
+}
+.last-project__container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.last-project__figure {
+    width: 600px;
+    height: 380px;
+    margin-bottom: 30px;
+}
+.last-project__h3 {
+    font-family: 'Roboto Mono';
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.last-project__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+.last-project__info {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+.last-project__h2 {
+    font-family: 'Roboto Mono';
+    font-size: var(--size-h2);
+    font-weight: bold;
+    line-height: 40px;
+}
+.last-project__p {
+    max-width: 500px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.last-project__btn,
+.card__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+    border: 1px solid var(--aqua-green);
+    font-family: 'Roboto Mono';
+    cursor: pointer;
+    border-radius: 6px;
+}
+.last-project__btn:hover {
+    background-color: var(--aqua-green);
+    color: white;
+}
+.card__btn:hover {
+    background-color: var(--grey-soft);
+}
+
+.main-blogs__h3 {
+    width: 90%;
+    text-align: center;
+    font-family: 'Roboto Mono';
+    font-size: var(--size-h3);
+    font-weight: bold;
+    padding: 60px 0px 20px 0px;
+    border-bottom: 2px solid var(--grey-soft);
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+
+/*Seccion de todos los proyectos*/
+.all-project {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 500px;
+    column-gap: 50px;
+    row-gap: 30px;
+}
+.card__img {
+    overflow: hidden;
+    border-radius: 6px;
+}
+.card__img:hover{
+    filter: brightness(1.5);
+}
+.all-project__card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card__h3 {
+    font-family: 'Roboto Mono';
+    font-size: var(--size-h3);
+    font-weight: bold;
+    padding-top: 20px;
+}
+.card__p {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+
+/*Media queries*/
+@media screen and (max-width: 1023px){
+    .all-project {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 400px;
+    row-gap: 40px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    header {
+        background-color: var(--aqua-green);
+    }
+    .header-section__bottom {
+        background-color: var(--aqua-green);
+    }
+    .all-project {
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 400px;
+    row-gap: 60px;
+    }
+    .last-project__container {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        gap: 0px;
+    }
+    .last-project__figure {
+        width: 750px;
+        height: 230px;
+        margin-top: 10px;
+    }
+    .last-project__info {
+        gap: 10px;
+    }
+    .last-project__h2 {
+        font-family: 'Roboto Mono';
+        font-size: var(--size-h3);
+        font-weight: bold;
+        line-height: 25px;
+    }
+    .last-project__p {
+        max-width: 500px;
+        font-family: 'Roboto';
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 767px){
+    .last-project {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .last-project {
+        height: 550px;
+    }
+}
