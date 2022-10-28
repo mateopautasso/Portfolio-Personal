@@ -23,7 +23,7 @@
 body {
     height: 100vh;
     background-color: #111111;
-    background-image: url('/assets/images/cover-medium.png');
+    background-image: url('../assets/images/cover-medium.png');
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
