@@ -82,18 +82,27 @@
     display: flex;
     align-items: center;
 }
-.contact-container__container--right {
-    max-width: 380px;
-}
+
 .contact-container__figure {
-    width: 300px;
+    width: 160px;
+}
+.contact-container__figure--right {
+    width: 160px;
+    margin-top: 15px;
 }
 .contact-container__img {
     width: 100%;
     object-fit: cover;
 }
+
 .contact-container__a-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     margin-left: 14px;
+}
+.contact-container__a-container--left {
+    margin-left: 20px;
 }
 .contact-container__a {
     font-family: 'Roboto Mono';
@@ -101,6 +110,7 @@
     text-decoration: underline;
     text-underline-offset: 4px;
     margin-bottom: 14px;
+    line-height: 25px;
 }
 .contact-container__p {
     font-family: 'Roboto';
