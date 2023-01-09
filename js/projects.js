@@ -66,7 +66,7 @@ crearNuevaCardProject
 (
     "bataBit.png",
     "BataBit Page",
-    "Landing page realizada como práctica de curso. Responsive Design con breakpoints aplicados en diferentes hojas de estilo y a su vez algunos media queries en la hoja de estilos principales. Aplicación de metodología BEM.",
+    "Landing page (solo vista mobile/small-tablet) realizada como práctica de curso. Breakpoints aplicados en diferentes hojas de estilo, a su vez algunos media queries en la hoja de estilos principales. Aplicación de metodología BEM.",
     "https://mateopautasso.github.io/Batabit-design-mobile-tablet/"
 )
 crearNuevaCardProject
