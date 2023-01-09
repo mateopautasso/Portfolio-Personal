@@ -74,6 +74,7 @@
     max-width: 500px;
     font-family: 'Roboto';
     font-weight: 500;
+    line-height: 18px;
 }
 .last-project__btn,
 .card__btn {
