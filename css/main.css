@@ -146,6 +146,12 @@ footer p {
 
 
 /*Media queries*/
+@media screen and (max-width: 1024px) {
+    .rotate-active {
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
+}
 @media screen and (max-width: 380px) {
     .header-section__top--in-footer a:nth-child(5){
         margin-right: 16px;
