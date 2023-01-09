@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="assets/icons/icons8-m-key-50.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/perfil.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,13 +50,13 @@
                 <a href="">
                     <img src="assets/social_media/png/002-twitter.png" alt="Twitter">
                 </a> -->
-                <a href="https://www.instagram.com/mateo__pautasso/">
+                <a href="https://www.instagram.com/mateo__pautasso/" target="_blank" title="Ir a mi instagram">
                     <img src="assets/social_media/png/011-instagram.png" alt="Instagram">
                 </a>
-                <a href="https://www.linkedin.com/in/mateo-pautasso-25b022247/">
+                <a href="https://www.linkedin.com/in/mateo-pautasso-25b022247/" target="_blank" title="ir a mi Linkedin">
                     <img src="assets/social_media/png/010-linkedin.png" alt="Linkedin">
                 </a>
-                <a href="https://github.com/mateopautasso">
+                <a href="https://github.com/mateopautasso" target="_blank" title="Ir a mi GitHub">
                     <img src="assets/social_media/png/github.png" alt="GitGub">
                 </a>
             </div>
@@ -65,7 +65,7 @@
             <a class="header-section__logo-a" href="./index.html">
                 <img class="header-section__img" src="assets/icons/Logo-negro.png" alt="Logo principal" title="Ir al inicio">
             </a>
-            <a class="header-section__sobre-mi-a" href="https://mateopautasso.github.io/Blog-de-tecnologia/perfil.html" style="color: black;" title="Sobre mí">Sobre mí</a>
+            <a class="header-section__sobre-mi-a" href="./proyectos.html" style="color: black;" title="Mis proyectos!">Mis proyectos!</a>
         </section>
     </header>
 
@@ -73,7 +73,7 @@
         <section class="main-perfil__intro">
             <div class="main-perfil__container">
                 <figure class="main-perfil__figure">
-                    <img class="main-perfil__img" src="./assets/images/una-taza-de-javascript.png" alt="Imágen del proyecto" title="Imágen del proyecto">
+                    <img class="main-perfil__img" src="./assets/images/una-taza-de-javascript.png" alt="Imágen del proyecto" title="Imagen ilustrativa">
                 </figure>
                 <h3 class="main-perfil__h3--intro">Hola!</h3>
                 <div class="asd">
@@ -82,11 +82,14 @@
                     <h3 class="main-perfil__h3--intro--mobile">l</h3>
                     <h3 class="main-perfil__h3--intro--mobile">a</h3>
                 </div>
-                <p class="main-perfil__p--intro">Texto de Intro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum perspiciatis sunt quia nulla asperiores iusto molestias placeat officiis delectus maxime ab temporibus velit natus, eaque, dignissimos dolorum cum quasi voluptatibus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quae illo modi nisi delectus qui alias aliquam.</p>
+                <p class="main-perfil__p--intro">Mi nombre es Mateo Pautasso, tengo 20 años de edad y soy desarrollador Front-End. Vivo actualmente en la ciudad de Paraná, Entre Ríos, Argentina.
+                Me formé y sigo formando de manera autodidacta, a través de diferentes cursos y plataformas que proporcionan educación tecnológica.
+                Realicé este sitio web con el proposito de que funcione como Portfolio personal, de esta forma podrán conocerme mejor.
+                </p>
             </div>
         </section>
         <article class="main-perfil__article">
-            <h3 class="main-perfil__h3">Proyectos</h3>
+            <h3 class="main-perfil__h3">Intereses y objetivos</h3>
             <section class="main-perfil__projects-container">
                 <div>
                     <h3 class="main-perfil__h3--project">Texto</h3>
@@ -103,13 +106,33 @@
 
             </section>
         </article>
+
         <section class="main-perfil__contact-container contact-container">
+            
+            <section class="main-perfil__form-contact">
+                <form enctype="text/plain" id="form-contact" method="post">
+                    <label for="name">Nombre:</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre" required><br>
+                    <img class="form-contact__icon-close" src="./assets/icons/arrow_left.png" alt="">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required><br>
+            
+                    <label for="message">Deje su mensaje:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+            
+            
+                    <input type="submit" id="send" value="Enviar mensaje">
+            
+                </form>
+                <a id="mailto" href=""></a>
+
+            </section>
             <div class="contact-container__container">
                 <figure class="contact-container__figure">
                     <img class="contact-container__img" src="assets/icons/png/013-newsletter.png" title="Contacto">
                 </figure>
                 <div class="contact-container__a-container">
-                    <a class="contact-container__a" href="">Contacto</a>
+                    <p class="contact-container__a contact-container__a--p" href="" title="Enviarme un mensaje al correo!">Contacto</p>
                     <p class="contact-container__p">Por cualquier consulta, contactame al correo!</p>
                 </div>
             </div>
@@ -118,14 +141,16 @@
                     <img class="contact-container__img" src="assets/icons/png/006-like.png" title="Escribime!">
                 </figure>
                 <div class="contact-container__a-container contact-container__a-container--left">
-                    <a class="contact-container__a" href="https://www.linkedin.com/in/mateo-pautasso-25b022247/" target="_blank">DM Linkedin 🛫</a>
+                    <a class="contact-container__a" href="https://www.linkedin.com/in/mateo-pautasso-25b022247/" target="_blank" title="ir a mi Linkedin!">DM Linkedin 🛫</a>
                     <p class="contact-container__p">Contactame por mensaje directo en Linkedin!</p>
                 </div>
             </div>
         </section>
+        
     </main>
 
     <footer>
+        
         <div class="footer__div-1"></div>
         <div class="header-section__top header-section__top--in-footer">
             <!-- <a href="">
@@ -134,13 +159,13 @@
             <a href="">
                 <img src="assets/social_media/png/002-twitter.png" alt="Twitter">
             </a> -->
-            <a href="https://www.instagram.com/mateo__pautasso/">
+            <a href="https://www.instagram.com/mateo__pautasso/" target="_blank">
                 <img src="assets/social_media/png/011-instagram.png" alt="Instagram">
             </a>
-            <a href="https://www.linkedin.com/in/mateo-pautasso-25b022247/">
+            <a href="https://www.linkedin.com/in/mateo-pautasso-25b022247/" target="_blank">
                 <img src="assets/social_media/png/010-linkedin.png" alt="Linkedin">
             </a>
-            <a href="https://github.com/mateopautasso">
+            <a href="https://github.com/mateopautasso" target="_blank">
                 <img src="assets/social_media/png/github.png" alt="GitGub">
             </a>
         </div>
@@ -148,5 +173,6 @@
             <p>Página web personal utilizada como carta de presentación.</p>
         </div>
     </footer>
+    <script src="./js/perfil.js"></script>
 </body>
 </html>

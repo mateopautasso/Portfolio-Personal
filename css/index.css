@@ -29,22 +29,7 @@ body {
     background-repeat: no-repeat;
     background-position: 50% 0%;
 }
-.backdrop-filter-active {
-    transition-duration: 0.5s;
-    backdrop-filter: blur(10px)
-}
-.backdrop-filter-inactive {
-    transition-duration: 0.5s;
-    backdrop-filter: blur(0px)
-}
-.h1-scale-active {
-    transition: 0.5s;
-    transform: scale(1.1);
-}
-.h1-scale-inactive {
-    transition: 0.5s;
-    transform: scale(1);
-}
+
 
 
 .main-index {
