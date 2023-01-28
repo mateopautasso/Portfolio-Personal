@@ -12,9 +12,11 @@ sobreMi.addEventListener('mousemove', scaleActive)
 sobreMi.addEventListener('mouseout', scaleInactive)
 
 function rotateActive() {
-    logoPrincipal.classList.add('rotate-active')
+    logoPrincipal.classList.add('scale-active')
+    logoPrincipal.classList.remove('scale-inactive')
 }function rotateInactive() {
-    logoPrincipal.classList.remove('rotate-active')
+    logoPrincipal.classList.add('scale-inactive')
+    logoPrincipal.classList.remove('scale-active')
 }
 function scaleAndBackdropFilterActive(){
     body.classList.add('backdrop-filter-active');

@@ -1,5 +1,4 @@
-const logoPrincipal = document.querySelector('.header-section__img');
-const sobreMi = document.querySelector(".header-section__sobre-mi-a");
+const sobreMiPerfil = document.querySelector(".header-section__sobre-mi-a");
 
 const aMailto = document.getElementById('mailto');
 const formContact = document.getElementById('form-contact') 
@@ -10,31 +9,20 @@ const arrowLeft = document.querySelector('.form-contact__icon-close');
 aContactCorreo.addEventListener('click', displayActive);
 arrowLeft.addEventListener('click', displayInactive);
 
-sobreMi.addEventListener('mousemove', scaleActive)
-sobreMi.addEventListener('mouseout', scaleInactive)
-
-logoPrincipal.addEventListener('mousemove', rotateActive)
-logoPrincipal.addEventListener('mouseout', rotateInactive)
+sobreMiPerfil.addEventListener('mousemove', scaleActive)
+sobreMiPerfil.addEventListener('mouseout', scaleInactive)
 
 formContact.addEventListener('submit', handleSubmit);
 
 
-function rotateActive() {
-    logoPrincipal.classList.add('rotate-active')
-}
-
-function rotateInactive() {
-    logoPrincipal.classList.remove('rotate-active')
-}
-
 function scaleActive (){
-    sobreMi.classList.add('scale-active');
-    sobreMi.classList.remove('scale-inactive');
+    sobreMiPerfil.classList.add('scale-active');
+    sobreMiPerfil.classList.remove('scale-inactive');
 }
 
 function scaleInactive() {
-    sobreMi.classList.remove('scale-active');
-    sobreMi.classList.add('scale-inactive');
+    sobreMiPerfil.classList.remove('scale-active');
+    sobreMiPerfil.classList.add('scale-inactive');
 }
 
 function handleSubmit(e){

@@ -1,24 +1,16 @@
 const allProject = document.querySelector(".all-project");
-const logoPrincipal = document.querySelector('.header-section__img');
-const sobreMi = document.querySelector(".header-section__sobre-mi-a");
+const sobreMiProject = document.querySelector(".header-section__sobre-mi-a");
 
-sobreMi.addEventListener('mousemove', scaleActive)
-sobreMi.addEventListener('mouseout', scaleInactive)
-logoPrincipal.addEventListener('mousemove', rotateActive)
-logoPrincipal.addEventListener('mouseout', rotateInactive)
+sobreMiProject.addEventListener('mousemove', scaleActive)
+sobreMiProject.addEventListener('mouseout', scaleInactive)
 
-function rotateActive() {
-    logoPrincipal.classList.add('rotate-active')
-}function rotateInactive() {
-    logoPrincipal.classList.remove('rotate-active')
-}
 function scaleActive (){
-    sobreMi.classList.add('scale-active');
-    sobreMi.classList.remove('scale-inactive');
+    sobreMiProject.classList.add('scale-active');
+    sobreMiProject.classList.remove('scale-inactive');
 }
 function scaleInactive() {
-    sobreMi.classList.remove('scale-active');
-    sobreMi.classList.add('scale-inactive');
+    sobreMiProject.classList.remove('scale-active');
+    sobreMiProject.classList.add('scale-inactive');
 }
 
 
