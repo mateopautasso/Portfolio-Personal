@@ -42,17 +42,17 @@ function crearNuevaCardProject(src,titulo,descripcion,href) {
 
 crearNuevaCardProject
 (
-    "yelpCamp.png",
-    "YelpCamp | Codewell Challenge",
-    "Codewell Challenge realizado como práctica. Responsive Design con breakpoints aplicados en diferentes hojas de estilo. Aplicación de metodología BEM.",
-    "https://mateopautasso.github.io/YelpCamp-web/"
-)
-crearNuevaCardProject
-(
     "jnSpecter.png",
     "Specter | Codewell Challenge",
     "Codewell Challenge realizado como práctica. Responsive Design con breakpoints aplicados en una sola hoja de estilos mediante media queries.",
     "https://mateopautasso.github.io/JohnathanSpecter-web/"
+)
+crearNuevaCardProject
+(
+    "yelpCamp.png",
+    "YelpCamp | Codewell Challenge",
+    "Codewell Challenge realizado como práctica. Responsive Design con breakpoints aplicados en diferentes hojas de estilo. Aplicación de metodología BEM.",
+    "https://mateopautasso.github.io/YelpCamp-web/"
 )
 crearNuevaCardProject
 (
