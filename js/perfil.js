@@ -1,4 +1,4 @@
-const sobreMiPerfil = document.querySelector(".header-section__sobre-mi-a");
+const sobreMiPerfil = document.querySelector(".header-section__mis-proyectos-a");
 
 const aMailto = document.getElementById('mailto');
 const formContact = document.getElementById('form-contact') 

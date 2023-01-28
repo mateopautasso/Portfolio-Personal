@@ -72,11 +72,10 @@ header {
     background-color: transparent;
 }
 .header-section__logo-a {
-    width: 300px;
+    width: 220px;
 }
 .header-section__img {
     width: 100%;
-    margin-bottom: 8px;
 }
 .header-section__sobre-mi-a {
     font-family: 'Roboto Mono';
@@ -85,6 +84,15 @@ header {
     text-decoration: underline;
     text-underline-offset: 4px;
     letter-spacing: 2px;
+}
+.header-section__mis-proyectos-a {
+    font-family: 'Roboto Mono';
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    letter-spacing: 2px;
+    margin-right: 36px;
 }
 
 
@@ -124,15 +132,11 @@ footer p {
 }
 .scale-active {
     transition: 0.5s;
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 .scale-inactive {
     transition: 0.5s;
     transform: scale(1);
-}
-.rotate-active {
-    transform: rotate(360deg);
-    transition: 0.7s;
 }
 
 .form-display-active {
@@ -173,7 +177,6 @@ footer p {
 @media screen and (max-width: 768px) {
     header {
         height: 100px;
-
     }
     .header-section {
         display: none;
@@ -181,6 +184,20 @@ footer p {
     .header-section__bottom {
         width: 100%;
         height: 100%;
+    }
+    .header-section__logo-a {
+        position: relative;
+    }
+    .header-section__img {
+        position: absolute;
+        top: -104px;
+        left: -48px;
+    }
+    .logomobile {
+        display: block!important;
+    }
+    .logodesktop {
+        display: none;
     }
 
     .header-section__bottom {
@@ -209,6 +226,11 @@ footer p {
     transform: scale(1.2);
     transition: 0.1s;
 }
+.header-section__mis-proyectos-a {
+    font-size: 1.4rem;
+    max-width: 100px;
+    margin-right: 12px;
+}
 }
 @media screen and (max-width: 1365px) {
     .header-section__top a:last-child img {
@@ -228,7 +250,7 @@ footer p {
         display: none;
     }
     .header-section__sobre-mi-a {
-        margin-right: 34px;
+        margin-right: 76px;
     }
 }
 
