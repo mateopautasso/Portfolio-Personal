@@ -190,14 +190,17 @@ footer p {
     }
     .header-section__img {
         position: absolute;
-        top: -104px;
-        left: -48px;
+        top: -90px;
+        left: -40px;
     }
     .logomobile {
         display: block!important;
     }
     .logodesktop {
         display: none;
+    }
+    .header-section__logo-a {
+        width: 180px;
     }
 
     .header-section__bottom {
