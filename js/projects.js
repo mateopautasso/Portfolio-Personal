@@ -42,6 +42,13 @@ function crearNuevaCardProject(src,titulo,descripcion,href) {
 
 crearNuevaCardProject
 (
+    "calculadora.png",
+    "Calculadora",
+    "Calculadora con funciones básicas desarrollada a traves de HTML, CSS y JavaScript",
+    "https://mateopautasso.github.io/Calculadora/"
+)
+crearNuevaCardProject
+(
     "jnSpecter.png",
     "Specter | Codewell Challenge",
     "Codewell Challenge realizado como práctica. Responsive Design con breakpoints aplicados en una sola hoja de estilos mediante media queries.",
@@ -65,6 +72,6 @@ crearNuevaCardProject
 (
     "yardSale.png",
     "Yard Sale e-commerce",
-    "Landing page de e-commerce realizado como práctica de curso. Contiene solo la sección de inicio junto con algunas otras cards desplegables con JavaScript",
+    "Página de E-commerce realizada como práctica de curso. Contiene solo la sección de inicio junto con algunas otras cards desplegables con JavaScript",
     "https://mateopautasso.github.io/Yard-Sale__e-commerce/"
 )
