@@ -131,6 +131,7 @@
 
 .card__img {
     object-fit: cover;
+    transition: all 0.75s;
 }
 .card__img:hover{
     transition: 0.75s;

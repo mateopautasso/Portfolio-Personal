@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -92,15 +93,15 @@
         <article class="main-perfil__article">
             <h3 class="main-perfil__h3">Conocimientos, objetivos e intereses</h3>
             <section class="main-perfil__projects-container">
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1000">
                     <h3 class="main-perfil__h3--project">Full Stack</h3>
                     <p class="main-perfil__p">Actualmente el stack de tecnologías que domino está conformado por HTML, CSS, Bootstrap y JavaScript. A esto se le suma un nivel intermedio de GIT y GITHUB, y un nivel básico en terminal de comandos tanto en Windows como en Linux.<br><br>El objetivo claramente está apuntado a conseguir un stack de tecnologías y lenguajes que me permitan transformarme en desarrollador Full Stack.</p>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-duration="1000">
                     <h3 class="main-perfil__h3--project">Python</h3>
                     <p class="main-perfil__p">Python es uno de los lenguajes que más me llaman la atención, sobre todo por su versatilidad a la hora de cumplir funciones. Además, se puede complementar muy bien con el área de Backend y las tecnologías antes mencionadas.<br><br>Uno de los objetivos a corto y mediano plazo es el dominio y aprendizaje de este lenguaje.</p>
                 </div>
-                <div>
+                <div data-aos="fade-left" data-aos-duration="1000">
                     <h3 class="main-perfil__h3--project">Ciberseguridad e IA</h3>
                     <p class="main-perfil__p">La ciberseguridad es un área que me gustaría indagar, aprender y dominar. Lo planteo como un objetivo a mediano plazo.<br><br>Lo mismo puedo decir del área de Inteligencia Artificial. Todo lo que es machine learning y conexiones neuronales me despiertan una gran curiosidad. Espero en un futuro poder investigar y aprender más sobre esto.</p>
                 </div>
@@ -126,8 +127,8 @@
             
                 </form>
                 <a id="mailto" href=""></a>
-
             </section>
+
             <div class="contact-container__container">
                 <figure class="contact-container__figure">
                     <img class="contact-container__img" src="./assets/icons/png/013-newsletter.png" title="Contacto">
@@ -174,6 +175,11 @@
             <p>Página web personal utilizada como Portfolio</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <script>
+        AOS.init();
+    </script>
     <script src="./js/perfil.js"></script>
     <script src="./js/main.js"></script>
 </body>

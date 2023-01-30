@@ -21,13 +21,13 @@ function rotateActive() {
 function scaleAndBackdropFilterActive(){
     body.classList.add('backdrop-filter-active');
     body.classList.remove('backdrop-filter-inactive');
-    h1Index.classList.add('scale-active');
+    h1Index.classList.add('scale-active-h1-index');
     h1Index.classList.remove('scale-inactive');
 }
 function scaleAndBackdropFilterInactive(){
     body.classList.add('backdrop-filter-inactive');
     body.classList.remove('backdrop-filter');
-    h1Index.classList.remove('scale-active');
+    h1Index.classList.remove('scale-active-h1-index');
     h1Index.classList.add('scale-inactive');
 }
 function scaleActive (){

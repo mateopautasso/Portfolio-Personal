@@ -134,6 +134,10 @@ footer p {
     transition: 0.5s;
     transform: scale(1.3);
 }
+.scale-active-h1-index {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
 .scale-inactive {
     transition: 0.5s;
     transform: scale(1);
