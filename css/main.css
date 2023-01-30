@@ -141,12 +141,12 @@ footer p {
 
 .form-display-active {
     display: block;
-    left: 0px!important;
-    transition: left 0.8s;
+    transform: translateX(1500px);
+    transition: transform 1s;
 }
 .form-display-inactive {
-    left: -1500px!important;
-    transition: left 1s;
+    transform: translateX(-1500px);
+    transition: transform 1s;
 }
 
 
