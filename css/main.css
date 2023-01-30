@@ -63,7 +63,7 @@ header {
 
 /*Header seccion de abajo*/
 .header-section__bottom {
-    width: 95%;
+    width: 100%;
     height: 70%;
     margin: 0 auto;
     display: flex;
