@@ -146,12 +146,11 @@ footer p {
 .form-display-active {
     display: block;
     transform: translateX(1500px);
-    transition: transform 1s;
 }
-.form-display-inactive {
+/* .form-display-inactive {
     transform: translateX(-1500px);
     transition: transform 1s;
-}
+} */
 
 
 /*Media queries*/

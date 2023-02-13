@@ -1,5 +1,5 @@
 const body = document.querySelector("body");
-const btnEntrar = document.querySelector(".main-index__button a");
+const btnEntrar = document.querySelector(".main-index__button");
 const h1Index = document.querySelector(".main-index__h1");
 const sobreMi = document.querySelector(".header-section__sobre-mi-a");
 const logoPrincipal = document.querySelector('.header-section__img');

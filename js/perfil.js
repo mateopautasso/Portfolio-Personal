@@ -7,7 +7,7 @@ const submitInput = document.getElementById('send');
 const aContactCorreo = document.querySelector('.contact-container__a');
 const arrowLeft = document.querySelector('.form-contact__icon-close');
 aContactCorreo.addEventListener('click', displayActive);
-arrowLeft.addEventListener('click', displayInactive);
+arrowLeft.addEventListener('click', displayActive);
 
 sobreMiPerfil.addEventListener('mousemove', scaleActive)
 sobreMiPerfil.addEventListener('mouseout', scaleInactive)
@@ -36,12 +36,6 @@ function handleSubmit(e){
     displayInactive();
 }
 
-function displayInactive() {
-    formContact.classList.add('form-display-inactive')
-    formContact.classList.add('form-display-active')
-}
-
 function displayActive() {
-    formContact.classList.add('form-display-active')
-    formContact.classList.remove('form-display-inactive')
+    formContact.classList.toggle('form-display-active')
 }

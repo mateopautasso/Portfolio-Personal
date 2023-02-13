@@ -124,6 +124,7 @@
     border-right: 4px solid var(--blue-grey-soft);
     border-top-right-radius: 6px;
     background-color: #48cfad;
+    transition: transform 1s;
 }
 
 label{
